@@ -1,0 +1,7 @@
+sc.exe create "EyeTimeLogService" binpath="C:\service\EyeTimeLogService.exe --contentRoot C:\service\"
+
+sc.exe start "EyeTimeLogService"
+
+sc.exe stop "EyeTimeLogService"
+
+sc.exe delete "EyeTimeLogService"
